@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.center-block button {
+        display: inline-block;
+         color: black;
+         font-size: 125%;
+         font-weight: 700;
+         text-decoration: none;
+         user-select: none;
+         padding: .25em .5em;
+         outline: none;
+         border-radius: 15px;
+         background: rgb(255,255,255,);
+         margin-top: 10px;
+}
+body {
+          background-image: url('background-image.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          font-family: 'Chonburi', cursive;
+          text-transform: uppercase;
+          }
+
+.main-block {
+}
+
+.navbar-block {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+color: blue;
+padding: 0;
+border-radius: 15px;
+width: 80vw;
+margin-left: 150px;
+font-size: 13px;
+}
+
+.left-block {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-grow: 0.3;
+}
+
+.left-block img {
+width: 30px;
+height: 30px;
+margin-left: 10px;
+margin-top: 5px;
+}
+
+.right-block {
+display: flex;
+flex-direction: row;
+width: 15vw;
+justify-content: space-between;
+margin-right: 10px;
+}
+
+.right-block img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.center-block {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20vh;
+}
+
+.center-block p {
+color: white;
+font-size: 7vh;
+padding: 0;
+}
+.center-block small {
+color: white;
+font-size: 3vh;
+}
+
+.bottom-block {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: flex-end;
+height: 7vh;
+margin-top: 30vh;
+}
+
+.left-bottom-block {
+display: flex;
+width: 15vw;
+justify-content: space-between;
+
+}
+
+.picture-block {
+width: 3vw;
+background-color: white;
+height: 5vh;
+border-radius: 30px;
+}
+
+#picture-block1 {
+background-image: url('face1.jpeg');
+background-size: cover;
+}
+
+#picture-block2 {
+background-image: url('face2.jpg');
+background-size: contain;
+}
+
+#picture-block3 {
+background-image: url('face3.jpg');
+background-size: contain;
+}
+
+#picture-block4 {
+background-image: url('face4.jpg');
+background-size: contain;
+}
+
+.right-bottom-block p {
+color: white;
+font-family: 'Anton', sans-serif;
+font-size: large;
+}
+
+@media (max-width: 600px ) { 
+
+.navbar-block {
+display: flex;
+flex-direction: column;
+width: 63vw;
+font-size: 16px;
+margin-left: auto;
+margin-right: auto;
+background: rgba(255,255,255, 0.7);
+}
+
+.left-block {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+flex-grow: 0.3;
+}
+
+.right-block {
+display: flex;
+    flex-direction: column;
+    margin-left: 26vw;
+    margin-bottom: 5vh;
+}
+
+.center-block { 
+margin-top: 10vh; 
+margin-left: 40px;
+
+}
+.left-bottom-block { 
+  width: 55vw;
+ }
+
+ .picture-block {
+width: 15vw;
+background-color: white;
+height: 5vh;
+border-radius: 30px;
+margin-right: 15px;
+}
+.right-bottom-block p {
+    font-size: 23px;
+    margin-top: 5px;
+  }
+}
